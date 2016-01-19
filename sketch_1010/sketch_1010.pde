@@ -8,7 +8,7 @@ Shapes  c1;
 Shapes s1 = null;
 ArrayList<Shapes> GO;
 boolean pieceInHand = false;
-int regen = 2;
+int regen = 3;
 
 int cols = 10;
 int rows = 10;
@@ -109,7 +109,7 @@ void draw() {
         }else{
              c1 = new shapeC(240,275);
         }
-            regen=2;
+            regen=3;
     }
     //mousePressed();
     //println(mouseX + ", " + mouseY);
